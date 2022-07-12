@@ -19,7 +19,8 @@ namespace WebSite.App_Code
     }
     public class MongoDataBase
     {
-        static string connectionString = "mongodb+srv://ron:123@cluster0.4pauo7n.mongodb.net/?retryWrites=true&w=majority";
+        
+        static string connectionString = Secret.MONGODBURI;
         static string dataBaseName = "tinyUrl";
         public static IMongoCollection<MyUrl> GetCollectionMyUrl()
         {
