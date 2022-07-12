@@ -1,5 +1,5 @@
 ##ignore secrets
-App_Code/Secret.cs
+/App_Code/Secret.cs
 
 
 ## Ignore Visual Studio temporary files, build results, and
