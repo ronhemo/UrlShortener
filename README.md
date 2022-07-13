@@ -1,4 +1,2 @@
 # Shrinker
-this project is a site that shrinks urls and can also enlarge them.
-as admin you can costumize your own shrinked url and mannage users and urls.
-(inspired from a leetcode problem)
+this project was inspired by a LeetCode problem called “Encode and Decode TinyURL”. In this website you can shrink an address and get a short address in return, as admin you can customize the address to your liking.
