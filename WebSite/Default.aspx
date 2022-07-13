@@ -3,14 +3,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>Welcome to Shrinker!!</h1>
-    <asp:TextBox ID="bigUrl" placeholder="shrink url: " runat="server"></asp:TextBox><br />
-    <asp:Label ID="shrinkedUrl" runat="server" Text=""></asp:Label><br />
-    <asp:Button ID="shrinkUrl" CssClass="btn btn-success" runat="server" Text="Shrink" OnClick="shrinkUrl_Click" />
-    <br />
-    <br />
-    <asp:TextBox ID="smallUrl" placeholder="enlarge url: " runat="server"></asp:TextBox><br />
-    <asp:Label ID="enlargedUrl" runat="server" Text=""></asp:Label><br />
-    <asp:Button ID="enlargeUrl" CssClass="btn btn-success" runat="server" Text="Enlarge" OnClick="enlargeUrl_Click" />
+    <center>
+        <h1>Welcome to Shrinker!!</h1>
+        <asp:TextBox ID="bigUrl" placeholder="shrink url: " runat="server"></asp:TextBox><br />
+        <asp:Label ID="shrinkedUrl" runat="server" Text=""></asp:Label><br />
+        <asp:Button ID="shrinkUrl" CssClass="btn btn-success" runat="server" Text="Shrink" OnClick="shrinkUrl_Click" />
+        <br />
+        <br />
+        <asp:TextBox ID="smallUrl" placeholder="enlarge url: " runat="server"></asp:TextBox><br />
+        <asp:Label ID="enlargedUrl" runat="server" Text=""></asp:Label><br />
+        <asp:Button ID="enlargeUrl" CssClass="btn btn-success" runat="server" Text="Enlarge" OnClick="enlargeUrl_Click" />
+    </center>
 
 </asp:Content>
